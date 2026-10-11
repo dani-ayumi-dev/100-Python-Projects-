@@ -4,9 +4,9 @@
 
 |Feature| Link to the code|
 |----|-----------------|
-|Validate 1st digit of the CPF|![validate first digit](P1_CPF_VALIDATOR\cpf_validator_1.py)|
-|Validate 2nd digit of the CPF|![validate second digit](P1_CPF_VALIDATOR\cpf_validator_2.py)|
-|Functions|![Important Functions](P1_CPF_VALIDATOR\functions.py)|
+|Validate 1st digit of the CPF|![validate first digit](cpf_validator_1.py)|
+|Validate 2nd digit of the CPF|![validate second digit](cpf_validator_2.py)|
+|Functions|![Important Functions](functions.py)|
 
 ## Description
 
@@ -86,22 +86,22 @@ Example of valid CPFs:
 
 #### Checking 034.994.490-30
 1st digit:
-![Checking First Digit](P1_CPF_VALIDATOR\assets\checking_valid_cpfs\checking_valid_inputs_034.994.490-30.gif)
+![Checking First Digit](assets\checking_valid_cpfs\checking_valid_inputs_034.994.490-30.gif)
 
 *Note about this validation:*
 Before testing the code with CPF 034.994.490-30, I noticed that the first digit validator output was positive, however, when testing the second digit validator, the output was negative. Reason: the remainder was equalling 10, which will always give a negative output since cpf[9] can't reach a number higher than 9.
 
 2nd digit:
-![Checking Second Digit](P1_CPF_VALIDATOR\assets\checking_valid_cpfs\P1_CPF_VALIDATOR\assets\checking_valid_cpfs\checking_valid_inputs_034.994.490-30_second_digit.gif)
+![Checking Second Digit](assets\checking_valid_cpfs\P1_CPF_VALIDATOR\assets\checking_valid_cpfs\checking_valid_inputs_034.994.490-30_second_digit.gif)
 
 
 
 #### Checking 29416066028
 1st digit:
-![Checking First Digit](P1_CPF_VALIDATOR\assets\checking_valid_cpfs\checking_valid_inputs_29416066028_first_digit.gif)
+![Checking First Digit](assets\checking_valid_cpfs\checking_valid_inputs_29416066028_first_digit.gif)
 
 2nd digit:
-![Checking Second Digit](P1_CPF_VALIDATOR\assets\checking_valid_cpfs\checking_valid_inputs_29416066028_second_digit.gif)
+![Checking Second Digit](assets\checking_valid_cpfs\checking_valid_inputs_29416066028_second_digit.gif)
 
 
 Example of invalid CPFs:
@@ -112,10 +112,10 @@ Example of invalid CPFs:
 
 #### Checking 29416066028
 1st digit:
-![Checking First Digit](P1_CPF_VALIDATOR\assets\checking_valid_cpfs\checking_valid_inputs_111.111.111-11_first_digit.gif)
+![Checking First Digit](assets\checking_valid_cpfs\checking_valid_inputs_111.111.111-11_first_digit.gif)
 
 2nd digit:
-![Checking Second Digit](P1_CPF_VALIDATOR\assets\checking_valid_cpfs\checking_valid_inputs_111.111.111-11_second_digit.gif)
+![Checking Second Digit](assets\checking_valid_cpfs\checking_valid_inputs_111.111.111-11_second_digit.gif)
 
 
 
